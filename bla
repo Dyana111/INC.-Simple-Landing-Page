@@ -1,0 +1,23 @@
+  &__menu {
+        & ul {
+            & li {
+                list-style: none;
+                margin-bottom: 10px;
+                width: 50%;
+                float: left;
+
+                & a {
+                    display: inline-block;
+
+                    &:hover {
+                        color: var(--bd-theme-primary);
+                    }
+                }
+            }
+        }
+    }
+    &__content {
+        & p {
+            margin-bottom: 30px;
+        }
+    }

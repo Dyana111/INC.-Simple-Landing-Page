@@ -451,3 +451,124 @@ body{
     align-items: center;
     justify-content: center;
 }
+.bd-footer-widget__form input {
+    height: 52px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 200px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #bfcddb;
+}
+.bd-footer-widget__form button {
+    position: absolute;
+    height: 52px;
+    border: 1px solid #bfcddb;
+    padding: 0 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 4px;
+    margin-left: -177px;
+    color: #888;
+}
+.bd-footer-widget__form input::placeholder{
+    color: #888;
+    font-size: 14px;
+}
+
+
+.bd-footer-widget__icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    background: #f5f8fb;
+    color: #888;
+    transition: all 0.3s ease-out 0s;
+    margin-right: 15px;
+}
+.bd-footer-widget__icons a:hover{
+    background: #0660bd;
+    color: white;
+}
+.footer-col-2 {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.bd-footer-widget {
+    margin-bottom: 30px;
+}
+.bd-footer-widget__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.bd-footer-widget__menu ul{
+    margin-left: -35px;
+}
+.bd-footer-widget__menu li{
+    list-style: none;
+    margin-bottom: 10px;
+    width: 50%;
+    float: left;
+    
+}
+.bd-footer-widget__menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+}
+.bd-footer-widget__menu a:hover{
+    color: #0660bd;
+}
+.bd-footer-widget___content  p {
+    margin-bottom: 30px;
+}
+.bd-footer-widget___right a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: 500;
+    line-height: 1.7;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 0.3s ease-out 0s;
+}
+.bd-footer-widget___right img{
+    height: 80px;
+    width: 80px;
+    margin-left: -15px;
+}
+.bd-footer-widget___right a:hover{
+    color: #0660bd;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.bd-border-top {
+    border-top: 1px solid #bfcddb;
+}
+.bd-footer__copyright a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+.bd-footer__copyright span {
+    color: #888;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
